@@ -13,27 +13,26 @@
 <body class="mx-auto">
     <h3 class="font-mono text-[30px] text-center text-slate-200">Text <span class="text-red-300">Editor</span></h3>
     <section class="w-[85vw] h-[85vh] mx-auto border-2">
-        <div class="flex justify-evenly h-10 my-3 mx-3">
+        <div class="flex items-center justify-evenly h-10 my-3 mx-3">
             <div class="menu-size grid-cols-3 gap-3 justify-center ">
-                <i id="bold" class="fa-solid fa-bold w-9 h-9"></i>
-                <i id="italic" class="fa-solid fa-italic w-9 h-9"></i>
-                <i id="underline" class="fa-solid fa-underline w-9 h-9"></i>
+                <i id="bold" class="fa-solid fa-bold"></i>
+                <i id="italic" class="fa-solid fa-italic    "></i>
+                <i id="underline" class="fa-solid fa-underline    "></i>
             </div>
             <div class="menu-size grid-cols-3 gap-3 justify-center ">
-                <i id="align-left" class="fa-solid fa-align-left w-9 h-9"></i>
-                <i id="alignCenter" class="fa-solid fa-align-center w-9 h-9"></i>
-                <i id="alignRight" class="fa-solid fa-align-right w-9 h-9"></i>
-                <i id="alignJustify" class="fa-solid fa-align-justify w-9 h-9"></i>
+                <i id="align-left" class="fa-solid fa-align-left    "></i>
+                <i id="alignCenter" class="fa-solid fa-align-center    "></i>
+                <i id="alignRight" class="fa-solid fa-align-right    "></i>
+                <i id="alignJustify" class="fa-solid fa-align-justify    "></i>
             </div>
-            <div class="menu-size grid-cols-3 gap-3 justify-center ">
+            <div class="menu-size grid-cols-3 justify-center ">
                 <input type="text" id="font-size" class="w-8 outline-none" >
-                <p id="fontCase" class="inline-flex text-center">aA</p>
+                <p id="fontCase" class="inline-flex text-center text-[12px]">aA</p>
+                <input type="color" name="color" id="color">
             </div>
         </div>
 
-        <textarea id="text" class="bg-white w-[83vw] h-[72vh] mx-auto text-black flex justify-center outline-none" rows="4" cols="50" >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit temporibus quod impedit! Sit totam sint libero. Quidem modi quaerat voluptatibus?
-        </textarea>
+        <textarea id="text" type="text" placeholder="Type your text" class="bg-white w-[83vw] h-[72vh] p-4 resize-none mx-auto text-black flex outline-none"></textarea>
     </section>
 
     <script src="script/script.js"></script>
