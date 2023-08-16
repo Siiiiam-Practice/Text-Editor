@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Browser</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/f4f86c1897.js" crossorigin="anonymous"></script>
+    <style>
+    </style>
+</head>
+<body class="mx-auto">
+    <h3 class="font-mono text-[30px] text-center text-slate-200">Text <span class="text-red-300">Editor</span></h3>
+    <section class="w-[85vw] h-[85vh] mx-auto border-2">
+        <div class="flex justify-evenly h-10 my-3 mx-3">
+            <div class="menu-size grid-cols-3 gap-3 justify-center ">
+                <i class="fa-solid fa-bold w-9 h-9"></i>
+                <i class="fa-solid fa-italic w-9 h-9"></i>
+                <i class="fa-solid fa-underline w-9 h-9"></i>
+            </div>
+            <div class="menu-size grid-cols-3 gap-3 justify-center ">
+                <i class="fa-solid fa-align-left w-9 h-9"></i>
+                <i class="fa-solid fa-align-center w-9 h-9"></i>
+                <i class="fa-solid fa-align-right w-9 h-9"></i>
+                <i class="fa-solid fa-align-justify w-9 h-9"></i>
+            </div>
+            <div class="menu-size grid-cols-3 gap-3 justify-center ">
+                <input type="text" id="font-size" class="w-5 outline-none" >
+                <p class="inline-flex text-center">aA</p>
+            </div>
+        </div>
+
+        <textarea style="font-family: cursive;" class="bg-white w-[83vw] h-[72vh] mx-auto text-black flex justify-center outline-none" rows="4" cols="50" >
+            
+        </textarea>
+
+    </section>
+    
+    <script src="script/script.js"></script>
+</body>
+</html>
